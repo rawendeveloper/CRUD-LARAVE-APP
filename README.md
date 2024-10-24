@@ -1,27 +1,195 @@
-<h1 align="center">Hi 👋, I'm Rawen AYEDI</h1>
-<h3 align="center">I'm a second-year computer systems engineering student specializing in IoT. I bring technical skills, teamwork prowess, and a hunger for growth to your company. My skills span full stack development, Internet of Things, Data Analysis and ML</h3>
+# 👨‍💼 Employee Management CRUD Application - CPG Gafsa
 
-- 🌱 I’m currently learning **Deep Learning & ML & AI using Python and Pytorch**
+## 🌟 Overview
 
-- 📝 I regularly write articles on [https://medium.com/@rawen.ayedi.dev](https://medium.com/@rawen.ayedi.dev)
+This project is a **CRUD (Create, Read, Update, Delete) Application** for managing employee data at **CPG Phosphate Gafsa**. The application is built using **Laravel**, a popular PHP framework, to provide a user-friendly interface for handling employee information such as name, position, salary, and department. The application allows administrators to add new employees, view employee lists, update employee details, and delete records. It also includes search and filtering options to efficiently manage large datasets.
 
-- 📫 How to reach me **rawen.ayedi.dev@gmail.com**
+---
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1IO-BlXi6tOCc2i2Ycr1MlPhNq95MXpho/view?usp=sharing](https://drive.google.com/file/d/1IO-BlXi6tOCc2i2Ycr1MlPhNq95MXpho/view?usp=sharing)
+## 📋 Table of Contents
 
-- ⚡ Fun fact **Forever a fan of Frutiger Aero Wave & Retro Video Games**
+- [Features](https://www.notion.so/124b6f04a80680ff976bd56443416577?pvs=21)
+- [Getting Started](https://www.notion.so/124b6f04a80680ff976bd56443416577?pvs=21)
+    - [Prerequisites](https://www.notion.so/124b6f04a80680ff976bd56443416577?pvs=21)
+    - [Installation](https://www.notion.so/124b6f04a80680ff976bd56443416577?pvs=21)
+    - [Usage](https://www.notion.so/124b6f04a80680ff976bd56443416577?pvs=21)
+- [Application Flow](https://www.notion.so/124b6f04a80680ff976bd56443416577?pvs=21)
+- [Directory Structure](https://www.notion.so/124b6f04a80680ff976bd56443416577?pvs=21)
+- [Future Enhancements](https://www.notion.so/124b6f04a80680ff976bd56443416577?pvs=21)
+- [Contributing](https://www.notion.so/124b6f04a80680ff976bd56443416577?pvs=21)
+- [License](https://www.notion.so/124b6f04a80680ff976bd56443416577?pvs=21)
 
-### Blogs posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+---
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/@rawen-ayedi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="@rawen-ayedi" height="30" width="40" /></a>
-<a href="https://www.behance.net/@monomimina" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/behance.svg" alt="@monomimina" height="30" width="40" /></a>
-<a href="https://medium.com/@rawen.ayedi.dev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@rawen.ayedi.dev" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/@rawen_ayedi_dev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="@rawen_ayedi_dev" height="30" width="40" /></a>
-</p>
+## ✨ Features
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://laravel.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+- **📁 Employee Management**: Add, view, edit, and delete employee records.
+- **🔍 Search and Filter**: Quickly search and filter employee data by name, department, or position.
+- **📝 Data Validation**: Ensure that all employee data entries are validated, preventing incorrect inputs.
+- **👤 Role-Based Access**: Admins can manage all records, while other users have restricted access (optional feature).
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Ensure the following software is installed:
+
+- PHP 7.4+
+- Composer
+- Laravel 8.x or later
+- MySQL or another supported database
+
+### Installation
+
+Follow these steps to set up the application:
+
+1. Clone the repository:
+    
+    ```bash
+    bash
+    Copier le code
+    git clone https://github.com/yourusername/employee-management-crud.git
+    
+    ```
+    
+2. Navigate to the project directory:
+    
+    ```bash
+    bash
+    Copier le code
+    cd employee-management-crud
+    
+    ```
+    
+3. Install the dependencies using Composer:
+    
+    ```bash
+    bash
+    Copier le code
+    composer install
+    
+    ```
+    
+4. Create a `.env` file and configure your database settings:
+    
+    ```bash
+    bash
+    Copier le code
+    cp .env.example .env
+    
+    ```
+    
+    Update the database credentials in the `.env` file:
+    
+    ```
+    env
+    Copier le code
+    DB_DATABASE=your_database
+    DB_USERNAME=your_username
+    DB_PASSWORD=your_password
+    
+    ```
+    
+5. Run the migrations to set up the database schema:
+    
+    ```bash
+    bash
+    Copier le code
+    php artisan migrate
+    
+    ```
+    
+6. Seed the database (optional):
+    
+    ```bash
+    bash
+    Copier le code
+    php artisan db:seed
+    
+    ```
+    
+7. Start the Laravel development server:
+    
+    ```bash
+    bash
+    Copier le code
+    php artisan serve
+    
+    ```
+    
+8. Open your browser and navigate to `http://localhost:8000` to access the application.
+
+---
+
+## 🛠️ Application Flow
+
+The Employee Management CRUD Application provides the following functionality:
+
+- **Add Employee**: Admins can fill out a form with employee details such as name, position, department, and salary. The data is validated before being stored in the database.
+- **View Employees**: A list of all employees is displayed in a paginated format with options to search and filter by department or name.
+- **Update Employee**: Admins can update employee details by selecting an employee from the list and submitting a form with modified details.
+- **Delete Employee**: Admins can remove employees from the system by clicking a delete button, and confirmation will be required before the action is completed.
+
+---
+
+## 📁 Directory Structure
+
+```bash
+bash
+Copier le code
+employee-management-crud/
+│
+├── app/                      # Contains core application logic
+│   ├── Models/Employee.php    # Employee model representing the employees table
+│   ├── Http/Controllers/      # Controllers to handle employee CRUD operations
+├── resources/
+│   ├── views/                 # Blade templates for the front-end
+│       ├── employees/         # Views for listing, adding, editing, and showing employees
+├── database/
+│   ├── migrations/            # Database migrations for creating tables
+│   ├── seeders/               # Seeders for populating the database with test data
+├── routes/
+│   ├── web.php                # Defines application routes for CRUD operations
+├── .env                       # Environment configuration file
+└── composer.json              # Project dependencies managed by Composer
+
+```
+
+---
+
+## 🔍 Example
+
+1. Visit `http://localhost:8000/employees` to see the employee list.
+2. Add an employee by filling out the "Add Employee" form.
+3. Edit an existing employee’s details by clicking the "Edit" button next to the employee’s name.
+4. Search for an employee by entering a name or filtering by department in the search bar.
+
+---
+
+## 🌱 Future Enhancements
+
+- **📊 Employee Analytics**: Add graphs and charts to visualize employee distribution across departments and positions.
+- **🔒 Role-Based Access Control**: Implement multiple user roles (Admin, Manager, User) with different access levels.
+- **🌍 Localization**: Translate the application into different languages to support a wider user base.
+- **📂 Export Feature**: Add the ability to export employee data to CSV or Excel for offline use.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you would like to improve this project, please fork the repository and submit a pull request with your changes. For major changes, open an issue first to discuss the details.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
+---
+
+## 🙏 Acknowledgments
+
+- **Laravel** for providing the robust framework that makes developing applications easy and efficient.
+- **Bootstrap** for styling the front-end with a clean, responsive design.
